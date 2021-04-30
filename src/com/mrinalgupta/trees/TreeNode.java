@@ -1,8 +1,10 @@
 package com.mrinalgupta.trees;
 
 public class TreeNode {
-    public static void main(String[] args) {
-        System.out.println("hello");
-    }
+    int value;
+    TreeNode left,right;
 
+    public TreeNode(int value) {
+        this.value = value;
+    }
 }
