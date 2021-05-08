@@ -23,10 +23,7 @@ public class PrintAnArray {
         System.out.println(Arrays.asList(arr));
 
         //using Java iterator interface
-        Iterator<int[]> iterator = Arrays.asList(arr).iterator();
 
-        while(iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
+        for (int[] ints : Arrays.asList(arr)) System.out.println(ints);
     }
 }

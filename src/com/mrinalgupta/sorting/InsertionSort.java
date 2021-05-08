@@ -2,6 +2,8 @@ package com.mrinalgupta.sorting;
 
 
 
+
+
 public class InsertionSort {
 //    To sort an array of size n in ascending order:
 //        1: Iterate from arr[1] to arr[n] over the array.
